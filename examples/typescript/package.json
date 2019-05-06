@@ -7,7 +7,7 @@
     "build": "docz build"
   },
   "dependencies": {
-    "docz": "^0.5.8",
+    "docz": "^0.13.0",
     "emotion": "^9.2.5",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
