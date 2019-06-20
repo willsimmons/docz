@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
-    "docz": "^0.5.8",
-    "docz-core": "^0.5.7",
+    "docz": "^0.13.0",
+    "docz-core": "^0.13.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
