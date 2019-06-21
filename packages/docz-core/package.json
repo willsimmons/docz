@@ -20,7 +20,7 @@
     "tslint": "tslint --project ."
   },
   "dependencies": {
-    "@babel/core": "7.0.0-beta.52",
+    "@babel/core": "7.0.0",
     "@babel/preset-typescript": "^7.0.0-beta.52",
     "@babel/runtime": "^7.0.0-beta.52",
     "@mdx-js/loader": "^0.13.1-1",
