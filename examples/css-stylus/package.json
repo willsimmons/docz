@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {
     "dev": "docz dev",
-    "build": "docz build"
+    "build": "docz build",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "classnames": "^2.2.6",
@@ -12,9 +14,11 @@
     "docz-core": "^0.5.7",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react-dom": "^16.4.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "docz-plugin-css": "^0.5.7"
-  }
+  },
+  "snyk": true
 }
