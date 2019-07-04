@@ -18,7 +18,9 @@
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"src/**/*.{ts,tsx}\" --write",
     "fix:tslint": "tslint --fix --project .",
-    "tslint": "tslint --project ."
+    "tslint": "tslint --project .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
@@ -27,6 +29,8 @@
     "docz-core": "^0.5.7",
     "happypack": "^5.0.0",
     "react-docgen-typescript-loader": "^2.1.1",
-    "ts-loader": "^4.4.2"
-  }
+    "ts-loader": "^4.4.2",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
