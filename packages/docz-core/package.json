@@ -17,7 +17,9 @@
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"src/**/*.{ts,tsx}\" --write",
     "fix:tslint": "tslint --fix --project .",
-    "tslint": "tslint --project ."
+    "tslint": "tslint --project .",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@babel/core": "7.0.0-beta.52",
@@ -85,7 +87,8 @@
     "webpack-serve-waitpage": "^1.0.0",
     "webpackbar": "^2.6.1",
     "ws": "^5.2.1",
-    "yargs": "^12.0.1"
+    "yargs": "^12.0.1",
+    "snyk": "^1.192.0"
   },
   "devDependencies": {
     "@types/chalk": "^2.2.0",
@@ -107,5 +110,6 @@
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
     "typescript": "^2.9.2"
-  }
+  },
+  "snyk": true
 }
